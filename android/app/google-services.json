@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "960055861361",
+    "firebase_url": "https://ashesi-nav-default-rtdb.firebaseio.com",
+    "project_id": "ashesi-nav",
+    "storage_bucket": "ashesi-nav.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960055861361:android:6877d63dc267cbd773bbd0",
+        "android_client_info": {
+          "package_name": "com.devspire.ashesi_nav"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpqTOSfhoiANsCvroOokl95BxsHjQ6508"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
