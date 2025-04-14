@@ -44,7 +44,7 @@ class _QrScanPageState extends State<QrScanPage> {
 
           for(LandMark lm in Data.landMarks){
             String cmp = qrResult.substring(10).toLowerCase().trim();
-            if(lm.name?.toLowerCase()== cmp){
+            if(lm.ref?.toLowerCase()== cmp){
               Navigator.pop(context,lm);
               break;
             }

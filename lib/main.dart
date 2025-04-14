@@ -27,6 +27,7 @@ void main() async{
       )
   );
 
+  //initialising all necessary methods so Firebase Cloud Messaging can work
   FirebaseMessaging.onBackgroundMessage(firebaseMessagingBackgroundHandler);
 
   var service = FCMService();
