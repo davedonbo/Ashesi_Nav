@@ -55,7 +55,7 @@ class _SignInScreenState extends State<SignInScreen> {
       }
       Navigator.popAndPushNamed(context, 'main');
     } on FirebaseAuthException catch (e) {
-      String message = 'An error occurred';
+      String message = 'An error occurred: ${e.message}';
       if (e.code == 'user-not-found') {
         message = 'No user found with this email';
       } else if (e.code == 'wrong-password') {
